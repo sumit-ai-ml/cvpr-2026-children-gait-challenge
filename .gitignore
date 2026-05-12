@@ -1,0 +1,37 @@
+# Dataset (provided externally, 5.2 GB)
+Dataset/
+
+# Generated artifacts
+cache/
+*.pkl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtualenvs
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude session metadata
+.claude/
+
+# Logs / tmp
+*.log
+/tmp/
